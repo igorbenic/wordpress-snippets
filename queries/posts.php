@@ -1,6 +1,8 @@
 <?php
 /**
 * Retrieving Regular Posts
+* 
+* All possible query attributes: https://developer.wordpress.org/reference/classes/wp_query/parse_query/
 */
 $posts = get_posts([
   'numberposts' => 10, // Get 10 posts
