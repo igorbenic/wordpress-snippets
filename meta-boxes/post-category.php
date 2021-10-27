@@ -31,7 +31,7 @@ function my_metabox_category_display( $post ) {
   
   // No categories? Return early.
   if ( ! $all_categories ) {
-    echo '<p>' . esc_html__( 'No Categories with posts found. Please add posts to categories first.', 'mydomain ) . '</p>';
+    echo '<p>' . esc_html__( 'No Categories with posts found. Please add posts to categories first.', 'mydomain' ) . '</p>';
     return;
   }
   // For security reasons.
