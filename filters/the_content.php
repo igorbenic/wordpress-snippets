@@ -46,7 +46,7 @@ function show_category_posts_below_content( $content ) {
   }
   
   // This is a dummy function here. This function should return html, not echo it.
-  $content .= your_function_to_render_posts_and_return_html( $posts );
+  $content .= your_function_to_render_posts_and_return_html( $related_posts );
   
   return $content;
 }
